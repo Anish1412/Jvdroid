@@ -1,0 +1,90 @@
+import java.util.*;
+
+public class Main {
+	public static void main(String[] args) {
+		ArrayDeque<Integer> l1 = new ArrayDeque<>();
+		ArrayDeque<Integer> l2 = new ArrayDeque<>();  //You have create new object everytime if you are trying to join arrays
+		
+		
+		//In ArrayDeque you cannot give index number before the number which you want to insert it does not it's own
+		l1.add(5);
+		l1.add(8);
+		l1.add(3);
+		l1.add(7);
+		l1.add(9);
+		l1.add(501); 
+		
+		l2.add(201);
+		l2.add(301);
+		l2.add(401);
+		l2.add(9);
+		
+		l1.addAll(l2);  //Joins the two arrays
+		
+		
+		
+//*************** Works Same****************
+
+       l1.push(7001);  //Adds elements at the starting but after addFirst(); element
+
+		l1.addFirst(1001);  //Adds element at the first position and will at the first position only even if new elements are inserted
+		
+		l1.addLast(2001);  //Adds element at the last position and will at the last position only even if new elements are inserted
+	
+//	l1.offer(3001);  //Works same like l1.add(3001); inserts at the end of the array
+
+   //    l1.offerFirst(4001);  //Works same like l1.addFirst(4001) but has more priority than addFirst();
+        
+       // l1.offerLast(5001);  //Works same like l1.addFirst(5001) but has more priority than addLast();
+       
+//**********************************************
+	
+//	System.out.println(l1.isEmpty()); //Checks the array is empty or not
+	
+//*************** Works Same****************
+
+     //	l1.pop();  //Removes the First element even if it is addFirst(); element
+
+	//    l1.remove(301);  //Removes a particular element which you inserted
+	  
+	  //		l1.removeFirst();  //Removes first element of the array
+		
+	//	l1.removeLast();  //Removes Last element of the array
+	
+   // 	l1.poll();  //Removes the first element of the array
+    	
+	//	l1.pollFirst();   //Removes the first element of the array
+		
+	//	l1.pollLast();   //Removes the Last element of the array
+
+//*********************************************		
+		
+	//	System.out.println(l1.contains(5));  //Checks if the entered element is present or not
+
+	
+//	System.out.println(l1.size());  //Prints the length of the array
+	
+	
+	
+//*************** Works Same****************
+
+
+ // System.out.println(l1.getFirst());  //Prints the number which is at the First position
+
+//  System.out.println(l1.getLast());   //Prints the number which is at the Last position
+
+ // System.out.println(l1.peek());   //Prints the first element
+      
+    //  System.out.println(l1.peekFirst());  //Prints the First element
+       
+    //   System.out.println(l1.peekLast());  //Prints the Last element
+      
+//*********************************************
+		
+
+		
+	//	l1.clear();   //Removes all elements
+		
+System.out.println(l1);
+	}
+}
