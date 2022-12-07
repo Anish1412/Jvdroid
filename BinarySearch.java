@@ -1,6 +1,6 @@
 import java.util.*;
 
-class BinarySearch {
+class Main {
 	public void display(int arr[],int len){
 			for(int i=0;i<len;i++){
 				if(i<len-1){
@@ -38,19 +38,19 @@ class BinarySearch {
 		}
 	}
 }
-class A
+class BinarySearch
 {
 	public static void main(String[] args) {
 		int arr[] = {12,21,32,34,54,56,76,78,90,98};
 		int size = arr.length;
 		long start1 = System.currentTimeMillis();
-		BinarySearch b1 = new BinarySearch();
+		Main b1 = new Main();
 		b1.display(arr,size);
 		long end1 = System.currentTimeMillis();
 		System.out.println("\n\nTime taken to execute array : "+(end1 - start1)+" ms");
 		
 		Scanner sc = new Scanner(System.in);
-		System.out.print("\nEnter number : ");
+		System.out.println("\nEnter value : ");
 		int num = sc.nextInt();
 		long start2 = System.currentTimeMillis();
 		b1.binarySearch(arr,size,num);

@@ -27,7 +27,7 @@ public void setT2(T2 t2){
  this.t2 = t2;
 }
  }
- class A
+ class Generics
  {
 	public static void main(String[] args) {
 		Main<String,Integer> m = new Main(45,"Anish Patil",645);

@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+class ArrayDeque1 {
 	public static void main(String[] args) {
 		ArrayDeque<Integer> l1 = new ArrayDeque<>();
 		ArrayDeque<Integer> l2 = new ArrayDeque<>();  //You have create new object everytime if you are trying to join arrays

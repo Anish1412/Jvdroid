@@ -6,7 +6,7 @@ class Time{
 		System.out.println("\nForce : "+force+" N");
 	}
 }
-class A
+class ExecutionTime
 {
 	public static void main(String[] args) {
 		Time t1 = new Time();

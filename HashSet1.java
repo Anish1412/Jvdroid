@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class HashSet1 {
 	public static void main(String[] args) {
 		HashSet<Integer> l1 = new HashSet<>();
 		HashSet<Integer> l2 = new HashSet<>();  //You have create new object everytime if you are trying to join arrays

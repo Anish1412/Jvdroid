@@ -1,8 +1,6 @@
-package com.company;
-
 import java.time.*;
 
-public class cwh_100_java_time {
+public class javatimeAPI {
     public static void main(String[] args) {
         LocalDate d = LocalDate.now();
         System.out.println(d);

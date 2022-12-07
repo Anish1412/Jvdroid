@@ -27,7 +27,7 @@ class LinearSearch {
 			}
 		}
 }
-class A
+class Main1
 {
 	public static void main(String[] args) {
 		int arr[] = {12,34,56,78,90,98,76,54,32,10};

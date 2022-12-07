@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class MyException extends Exception{
+class MyException extends Exception{
 	//public String toString(){
 //		return "Age should be greater than 18 and less than 65";
 //	}

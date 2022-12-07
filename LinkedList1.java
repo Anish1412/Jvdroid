@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class LinkedList1 {
 	public static void main(String[] args) {
 		LinkedList<Integer> l1 = new LinkedList<>();
 		LinkedList<Integer> l2 = new LinkedList<>();  //You have create new object everytime if you are trying to join arrays

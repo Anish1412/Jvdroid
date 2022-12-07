@@ -2,7 +2,7 @@
 import java.util.regex.Pattern; */
 import java.util.regex.*;
 
-public class Main {
+public class Regex {
   public static void main(String[] args) {
     //Checks single letter
     System.out.println("1. "+Pattern.matches("[abc]","a"));

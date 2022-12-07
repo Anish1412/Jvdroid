@@ -20,7 +20,7 @@ void elemDeletion(int num[],int size,int ind){
 }
 }
 
-class A
+class Deletion
 {
 	public static void main(String[] args) {
 		int num[] = new int[100];

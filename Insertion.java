@@ -25,7 +25,7 @@ void elemInsertion(int num[],int size,int ind,int ele,int capacity){
 }
 }
 
-class A
+class Insertion
 {
 	public static void main(String[] args) {
 		int num[] = new int[100];

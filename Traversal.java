@@ -14,7 +14,7 @@ class Main {
 	}
 }
 
-class A
+class Traversal
 {
 	public static void main(String[] args) {
 		int num[] = new int[100];
